@@ -2,3 +2,21 @@
   @include outer-container;
   @include shift(2);
 }
+
+ol {
+  font-size: 1em;
+  font-weight: 500;
+
+  li {
+    margin: .5em 0;
+
+    span {
+      display: inline-block;
+
+      &:befire {
+        content: '/';
+        margin: 0 .3em;
+      }
+    }
+  }
+}

@@ -2,4 +2,12 @@ footer {
   border-top: 1px solid $base-border-color;
   margin: 2em 0;
   padding-top: 2em;
+
+  .large-column {
+    @include span-columns(9 of 12);
+  }
+
+  .small-column {
+    @include span-columns(3 of 12);
+  }
 }
