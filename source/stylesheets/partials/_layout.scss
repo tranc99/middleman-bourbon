@@ -1,0 +1,4 @@
+#main {
+  @include outer-container;
+  @include shift(2);
+}

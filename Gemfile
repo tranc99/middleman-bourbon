@@ -24,3 +24,8 @@ end
 
 # other additions
 gem 'rack-contrib'
+
+
+gem 'bitters'
+gem 'bourbon'
+gem 'neat'
