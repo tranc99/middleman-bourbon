@@ -20,3 +20,7 @@ gem "middleman-livereload"
 group :development do
   gem "middleman-livereload"
 end
+
+
+# other additions
+gem 'rack-contrib'
